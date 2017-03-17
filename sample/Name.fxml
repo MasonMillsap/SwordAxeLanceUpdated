@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="275.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.NameController">
+   <children>
+      <Button fx:id="accept" layoutX="103.0" layoutY="61.0" mnemonicParsing="false" text="Accept" />
+      <TextField fx:id="fighterName" layoutX="26.0" layoutY="31.0" prefHeight="25.0" prefWidth="226.0" promptText="Name" />
+      <Label layoutX="26.0" layoutY="14.0" text="Enter a name for your fighter" />
+   </children>
+</AnchorPane>
